@@ -1,0 +1,122 @@
+.add-book-form-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-book-form-container h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.add-book-form-container form {
+  display: grid;
+  gap: 15px;
+}
+
+.add-book-form-container label {
+  font-weight: bold;
+}
+
+.add-book-form-container .MuiFormControl-root {
+  width: 100%;
+}
+
+.add-book-form-container .MuiButton-root {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.add-book-form-container .MuiButton-containedPrimary {
+  background-color: #007bff;
+  color: #ffffff;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.add-book-form-container .MuiButton-containedPrimary:hover {
+  background-color: #0056b3;
+}
+
+.add-book-form-container .MuiInputBase-root,
+.add-book-form-container .MuiSelect-root {
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.add-book-form-container .validation-message {
+  color: red;
+  font-size: 0.75rem;
+  margin-top: 5px;
+}
+
+.add-book-form-container .upload-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.add-book-form-container .upload-button {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-book-form-container .uploaded-image {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.add-book-form-container .uploaded-image img {
+  max-width: 100px;
+  height: auto;
+}
+
+.add-book-form-container .remove-image {
+  color: red;
+  cursor: pointer;
+}
+
+/* Additional styling for larger screens */
+@media (min-width: 768px) {
+  .add-book-form-container {
+    padding: 40px;
+  }
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+/* Add margin to the "Cancel" button */
+.button-container .MuiButton-root:last-child {
+  margin-left: 10px;
+  /* Adjust the margin value as needed */
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  margin-bottom: 25px;
+}
+
+.booksearch-bar {
+  /* flex: 1; */
+  margin-right: 20%;
+  /* Optional margin between search bar and button */
+}
+
+.add-button {
+  flex: 0;
+  white-space: nowrap;
+  margin-right: 20%;
+}

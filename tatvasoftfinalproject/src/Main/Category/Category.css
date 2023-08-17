@@ -1,0 +1,111 @@
+/* Category.css */
+
+/* Styling for the table */
+.MuiTable-root {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #e0e0e0;
+  }
+  
+  /* Styling for table rows */
+  .MuiTableRow-root {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Styling for table cells */
+  .MuiTableCell-root {
+    flex: 1;
+  }
+  
+  /* Styling for the "Edit" and "Delete" buttons */
+  .category-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  /* Styling for table pagination */
+  .MuiTablePagination-root {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  /* Styling for confirmation dialog */
+  .confirmation-dialog {
+    width: 300px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .confirmation-dialog .dialog-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .confirmation-dialog .dialog-description {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .confirmation-dialog .btn-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .confirmation-dialog .btn {
+    margin-left: 10px;
+    padding: 5px 15px;
+    border: none;
+    background-color: #f50057;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .confirmation-dialog .btn.cancel {
+    background-color: #bdbdbd;
+  }
+  /* Category.css */
+
+/* ... (existing CSS code) */
+
+/* Container for the entire category section */
+.category-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* Title for the category section */
+  .category-title {
+    margin-bottom: 20px;
+  }
+  
+  /* Container for buttons and search input */
+  .category-buttons {
+    display: flex;
+    justify-content: space-between; /* Spread items evenly */
+    align-items: center;
+    width: 100%; /* Occupy the full width */
+    margin-bottom: 20px;
+  }
+  
+  /* Buttons container */
+  .buttons-container {
+    display: flex;
+    gap: 10px; /* Space between buttons */
+  }
+  
+  /* Table container */
+  .category-table-container {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    width: 100%;
+  }
+  

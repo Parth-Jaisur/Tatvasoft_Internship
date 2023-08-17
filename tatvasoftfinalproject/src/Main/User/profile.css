@@ -1,0 +1,49 @@
+/* Add this CSS to your Profile.css stylesheet */
+.paper-style {
+	width: 400px;
+	margin: 50px auto;
+	padding: 20px;
+	text-align: center;
+}
+
+.header-style {
+	margin: 10px 0;
+}
+
+.form-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.form-field {
+	margin: 10px 0;
+}
+
+.submit-button {
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+}
+
+.cancel-button {
+	background-color: #f44336;
+}
+
+.submit-button button,
+.cancel-button button {
+	width: 120px;
+}
+
+.form-field input {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.error {
+	color: #f44336;
+	font-size: 0.8rem;
+	margin-top: 5px;
+}

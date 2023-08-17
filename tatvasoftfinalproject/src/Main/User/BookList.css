@@ -1,0 +1,112 @@
+.book-list-container {
+    padding: 20px;
+  }
+  
+  .books-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .book-item {
+    border: 1px solid #ccc;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .book-image img {
+    max-width: 100%;
+    height: 200px; /* Set the desired height for the images */
+    object-fit: cover; /* Maintain aspect ratio and cover the entire space */
+    margin-bottom: 10px;
+  }
+  
+  .book-details {
+    flex: 1;
+  }
+  
+  .book-details button {
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .pagination-wrapper {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  /* BookList.css */
+
+/* Add styles for the sorting controls */
+.sorting-controls {
+    display: flex;
+    align-items: center;
+  }
+  
+  .sorting-label {
+    margin-right: 10px;
+  }
+  
+  .sorting-select {
+    width: 150px;
+  }
+
+  .search-controls {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+  }
+  
+  .search-controls > * {
+    margin-right: 16px;
+  }
+
+  .search-and-sort-controls {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+    /* Add this CSS to your BookList.css stylesheet */
+    .books-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 20px;
+    }
+  
+    .book-item {
+      width: calc(20% - 20px);
+      /* 20% width for each item with 20px gap */
+      padding: 20px;
+      background-color: #f8f8f8;
+      border: 1px solid #e0e0e0;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    }
+  
+    /* .book-image img {
+      max-width: 100%;
+      height: auto;
+    } */
+  
+    .book-details {
+      margin-top: 10px;
+    }
+  
+    .description {
+      margin-top: 5px;
+      color: #666;
+    }
+  
+    .book-price {
+      margin-top: 10px;
+    }
+  
+    .add-to-cart-button {
+      margin-top: 15px;
+    }
